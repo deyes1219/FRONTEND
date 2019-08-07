@@ -15,13 +15,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://drive.google.com/open?id=0B-CRKYNocIeqbXFjWTNRdWFPUWxHaUNOdWlMbXZqLWZvMlRN" class="d-block w-100" alt="...">
+      <img src="https://ipc.milaulas.com/pluginfile.php/1895/course/overviewfiles/reporte-de-asistencia.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://drive.google.com/open?id=0B-CRKYNocIeqbXFjWTNRdWFPUWxHaUNOdWlMbXZqLWZvMlRN" class="d-block w-100" alt="...">
+      <img src="https://ipc.milaulas.com/pluginfile.php/1895/course/overviewfiles/reporte-de-asistencia.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://drive.google.com/open?id=0B-CRKYNocIeqbXFjWTNRdWFPUWxHaUNOdWlMbXZqLWZvMlRN class="d-block w-100" alt="..."">
+      <img src="https://ipc.milaulas.com/pluginfile.php/1895/course/overviewfiles/reporte-de-asistencia.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -75,14 +75,36 @@
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+          Estudiantes
         </button>
       </h2>
     </div>
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+         aquí van todos los estudiantes
+         <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">nombre1</th>
+      <th scope="col">nombre2</th>
+      <th scope="col">apellido1</th>
+      <th scope="col">apellido2</th>
+      <th scope="col">idacudientes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>primer nombre</td>
+      <td>segundo nombre</td>
+      <td>primer apellido</td>
+      <td>segundo apellido</td>
+      <td> el id del acudiente con populacion para nombre</td>
+    </tr>
+  </tbody>
+</table>
       </div>
     </div>
   </div>
@@ -90,32 +112,70 @@
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+          asistencias
         </button>
       </h2>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
+          aqui va asistencias
+                   <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">asistencia</th>
+      <th scope="col">inasistencias</th>
+      <th scope="col">fecha</th>
+      <th scope="col">id_estudiante</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>asistencias</td>
+      <td>faltas a clase</td>
+      <td>fecha</td>
+      <td>id del estudiante populado</td>
+    </tr>
+  </tbody>
+  </table>
+
+    </div>
     </div>
   </div>
   <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
+          listado
         </button>
       </h2>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
+       aqui va listado
+       <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">id_profesor</th>
+      <th scope="col">id_materia</th>
+      <th scope="col">fecha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>id profesor</td>
+      <td>id de materia</td>
+      <td>fecha</td>
+    </tr>
+  </tbody>
+  </table>
     </div>
   </div>
 </div>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-primary">Llama al acudiente</a>
   </div>
 </div>
         </v-layout>
@@ -125,17 +185,26 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">Important Links</h2>
+        <h2 class="headline font-weight-bold mb-3">Registrar estudiantes</h2>
 
         <v-layout justify-center>
           <a
-            v-for="(link, i) in importantLinks"
-            :key="i"
-            :href="link.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ link.text }}
+            <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
           </a>
         </v-layout>
       </v-flex>
@@ -144,7 +213,7 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">Ecosystem</h2>
+        <h2 class="headline font-weight-bold mb-3">ayuda</h2>
 
         <v-layout justify-center>
           <a
@@ -165,24 +234,24 @@
 <script>
 export default {
   data: () => ({
-    ecosystem: [
+    ayuda: [
       {
         text: 'vuetify-loader',
-        href: 'https://github.com/vuetifyjs/vuetify-loader',
+        href: 'https://github.com/deyes1219/trabajo/tree/master/bin/models',
       },
       {
         text: 'github',
-        href: 'https://github.com/vuetifyjs/vuetify',
+        href: 'https://github.com/deyes1219/trabajo/tree/master/bin/models',
       },
       {
         text: 'awesome-vuetify',
-        href: 'https://github.com/vuetifyjs/awesome-vuetify',
+        href: 'https://github.com/deyes1219/trabajo/tree/master/bin/models',
       },
     ],
     importantLinks: [
       {
         text: 'Documentation',
-        href: 'https://vuetifyjs.com',
+        href: 'https://github.com/deyes1219/trabajo/tree/master/bin/models',
       },
       {
         text: 'Chat',

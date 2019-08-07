@@ -15,12 +15,23 @@
 
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          sirves
+          Bienvenido a la App de toma de asistencia
         </h1>
         <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br>please join our online
-          <a href="https://community.vuetifyjs.com" target="_blank">Discord Community</a>
+          Para registrar a tus estudiantes
+          Rellena el formulario debajo
+          <br>
+          <template v-if="loginType === 'username'">
+  <label></label>
+  <br>
+  <input placeholder="Enter your username" key="username-input">
+</template>
+<template v-else>
+  <label></label>
+  <input placeholder="Enter your email address" key="email-input">
+</template>
+<br>
+<v-btn>Login</v-btn>
         </p>
       </v-flex>
 
@@ -31,15 +42,42 @@
         <h2 class="headline font-weight-bold mb-3">What's next?</h2>
 
         <v-layout justify-center>
-          <a
-            v-for="(next, i) in whatsNext"
-            :key="i"
-            :href="next.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ next.text }}
-          </a>
+          <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Asistencias</h5>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
         </v-layout>
       </v-flex>
 
